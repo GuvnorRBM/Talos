@@ -22,20 +22,22 @@
         .iframe-container {
             width: 90%; /* Set width to a larger, more fixed size */
             height: 85vh; /* Increase height for better display */
-            background: #ccc; /* Background color for the frame */
             border: 3px solid #333; /* Maintain reduced border thickness */
-            padding: 2px; /* Keeping a sleek frame */
-            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+            padding: 0; /* Remove padding to eliminate border effect */
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6); /* Improve shadow for a sleek effect */
             display: flex;
             align-items: center;
             justify-content: center;
             margin-top: 5vh; /* Slightly smaller top gap */
             margin-bottom: 5vh; /* Adjusted bottom space */
+            overflow: hidden; /* Ensure no unwanted margins */
+            background: none; /* Remove any background color */
         }
         iframe {
             width: 100%; /* Make iframe fill container */
             height: 100%;
             border: none;
+            display: block; /* Remove any default iframe margins */
         }
         .talos-core {
             position: absolute;
