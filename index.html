@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Image Test</title>
+    <title>Talos CORE Dashboard</title>
     <style>
         body {
             background-image: url('https://github.com/GuvnorRBM/Talos/blob/main/background.jpg?raw=true');
@@ -20,9 +20,8 @@
             position: relative;
         }
         .iframe-container {
-            width: auto; /* Adjust width dynamically to fit the iframe */
-            max-width: 85%; /* Prevent excessive width */
-            height: 80vh; /* Maintain height for better space utilization */
+            width: 90%; /* Set width to a larger, more fixed size */
+            height: 85vh; /* Increase height for better display */
             background: #ccc; /* Background color for the frame */
             border: 3px solid #333; /* Maintain reduced border thickness */
             padding: 2px; /* Keeping a sleek frame */
@@ -30,12 +29,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 6vh; /* Slightly smaller top gap */
-            margin-bottom: 6vh; /* Adjusted bottom space */
+            margin-top: 5vh; /* Slightly smaller top gap */
+            margin-bottom: 5vh; /* Adjusted bottom space */
         }
         iframe {
-            width: auto; /* Adjust width dynamically */
-            max-width: 100%; /* Ensure iframe does not exceed container */
+            width: 100%; /* Make iframe fill container */
             height: 100%;
             border: none;
         }
@@ -46,6 +44,7 @@
             font-size: 28px;
             font-family: 'Aharoni', sans-serif;
             color: white;
+            font-weight: bold; /* Make text bold */
         }
     </style>
 </head>
