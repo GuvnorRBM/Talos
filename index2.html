@@ -13,14 +13,15 @@
             height: 100vh;
             margin: 0;
             display: flex;
-            align-items: center;
+            align-items: flex-end; /* Move content closer to the bottom */
             justify-content: center;
             font-family: Arial, sans-serif;
             position: relative;
+            padding-bottom: 3vh; /* Fine-tune spacing to get closer to the bottom */
         }
         .dashboard-container {
             width: 80%; /* Adjusted to fit inside the white area */
-            height: 75vh; /* Adjusted to match the available space */
+            height: 80vh; /* Increased height to push closer to the bottom */
             background: rgba(255, 255, 255, 0.9); /* White semi-transparent background */
             border-radius: 10px; /* Soft edges for a modern look */
             display: flex;
@@ -37,9 +38,9 @@
         }
         .talos-core {
             position: absolute;
-            top: 20px;
+            top: 10px; /* Keep it near the top */
             right: 40px;
-            font-size: 28px;
+            font-size: 36px; /* Increased font size */
             font-family: 'Aharoni', sans-serif;
             color: white;
             font-weight: bold;
