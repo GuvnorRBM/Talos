@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talos CORE Dashboard</title>
+    <style>
+        body {
+            background-image: url('https://github.com/GuvnorRBM/Talos/blob/main/background.jpg?raw=true');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .dashboard-container {
+            width: 80%; /* Adjusted to fit inside the white area */
+            height: 75vh; /* Adjusted to match the available space */
+            background: rgba(255, 255, 255, 0.9); /* White semi-transparent background */
+            border-radius: 10px; /* Soft edges for a modern look */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+            padding: 10px;
+        }
+        iframe {
+            width: 100%; /* Ensure it fits the container */
+            height: 100%;
+            border: none;
+            display: block;
+        }
+        .talos-core {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 28px;
+            font-family: 'Aharoni', sans-serif;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+    <meta http-equiv="refresh" content="3600"> <!-- Refresh the entire page every 1 hour -->
+</head>
+<body>
+    <div class="talos-core">Talos CORE</div>
+    <div class="dashboard-container">
+        <iframe src="https://apps.powerapps.com/play/e/default-83caf35c-4b18-4a57-8209-00e447faa710/a/d86265dd-8e49-4a4a-b0fc-7938a07f0817?tenantId=83caf35c-4b18-4a57-8209-00e447faa710&hint=b0fb1e3f-669a-4473-847b-72463d6d30d8&sourcetime=1742291621073" title="PowerApps Dashboard"></iframe>
+    </div>
+</body>
+</html>
